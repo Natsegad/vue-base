@@ -1,0 +1,30 @@
+h1 {
+  cursor: pointer;
+}
+
+.text-header {
+  font-size: var(--header-font-size);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.text-main {
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-heidth);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-small {
+  font-size: var(--small-font-size);
+  line-height: var(--main-line-heidth);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}

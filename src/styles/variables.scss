@@ -1,0 +1,15 @@
+:root {
+  --main-font-size: 20px;
+  --main-font-weidth: 400;
+  --small-font-size: calc(var(--main-font-size) - (var(--main-font-size) / 4));;
+  --main-line-heidth: calc(var(--main-font-size) * 1.5);
+  --header-font-size: calc(var(--main-font-size) + (var(--main-font-size) / 2));
+  --main-color: #010101;
+  --text-color: #e6e6e6;
+}
+
+@media (max-width: 768px){
+  :root {
+    --main-font-size: 16px;
+  }
+}
